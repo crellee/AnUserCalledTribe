@@ -1,0 +1,36 @@
+﻿
+@{
+    ViewBag.Title = "Video Window";
+}
+
+<h2>Index</h2>
+<div class="col-md-8">
+    <div style="border: 1px solid black; height:550px">
+        <h1> VIDEO HER: </h1>
+    </div>
+    <div style="border: 1px solid black">
+        <h3>Task X:</h3>
+        D: Han gør blablabla<br />
+        S: Han siger blablabla<br />
+        F: Han er blabla<br />
+        I: Han forstår ikke blablabla<br />
+        Q: Han spørger blablabla
+    </div>
+</div>
+
+<div class="col-md-4" style="padding-left:20px;">
+    @for (int i = 1; i < 6; i++)
+    {
+        <div style="border: 1px solid black; padding-left:10px">
+            <h4> Task @i</h4>
+            D: Han gør blablabla<br />
+            S: Han siger blablabla<br />
+            F: Han er blabla<br />
+            I: Han forstår ikke blablabla<br />
+            Q: Han spørger blablabla
+
+        </div>
+    }
+
+</div>
+
